@@ -22,7 +22,7 @@ This project demonstrates API testing using Python's `requests` library and the 
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 api_testing_with_python/
 ├── tests/
