@@ -1,24 +1,28 @@
-# API Testing with Python & Pytest
+#  API Testing with Python & Pytest
 
-This project demonstrates API testing using Python's `requests` library and the `pytest` framework. It targets a public placeholder API to validate both positive and negative scenarios.
+This project demonstrates how to test REST APIs using Python's `requests` library and the `pytest` framework. It covers **GET** and **POST** requests using publicly available endpoints.
 
 ---
 
-## Technologies Used
+##  Technologies Used
 
 - **Python**
-- **Pytest** — for test execution and structure
-- **Requests** — to make HTTP calls
+- **Pytest** — for writing and running test cases
+- **Requests** — to send HTTP requests to the API
 
 ---
 
-## What It Tests
+##  What’s Covered
 
-| Test | Description |
-|------|-------------|
-| `test_get_user` | Checks if a valid user is returned correctly |
-| `test_user_not_found` | Ensures proper handling of a non-existent user |
-| `test_user_email_format` | Validates the email format using regex |
+| Test File | What It Tests |
+|-----------|----------------|
+| `test_get_users.py` | Validates a known user, handles user not found (404), checks email format |
+| `test_post_users.py` | Sends JSON data to create a user (POST) and verifies the response |
+
+These tests simulate **real QA scenarios** like:
+- Positive & negative responses
+- Email format checks using regex
+- POST request with JSON payload
 
 ---
 
@@ -26,20 +30,23 @@ This project demonstrates API testing using Python's `requests` library and the 
 
 api_testing_with_python/
 ├── tests/
-│ └── test_users.py
+│ ├── test_get_users.py
+│ └── test_post_users.py
 ├── requirements.txt
 └── README.md
 
-
 ---
 
-## How to Run
+##  How to Run Tests
 
-1. Install dependencies:
-   
+1.  Install dependencies:
+
 pip install -r requirements.txt
 
-2. Run tests with:
-   
+2.  Run all tests:
+
 pytest
 
+3.  Run a specific test file (e.g. only POST tests):
+
+pytest tests/test_post_users.py
