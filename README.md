@@ -1,3 +1,13 @@
+## ✅ Tech Used
+- Python
+- requests
+- Pytest
+
+## 🚀 Tests Covered
+- ✅ GET user by ID
+- ✅ Handle user not found (404)
+- ✅ Email format validation
+
 # API Testing with Python
 
 This project contains simple API tests using Python and the `requests` library.
