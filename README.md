@@ -42,4 +42,5 @@ pip install -r requirements.txt
 
 2. Run tests with:
 
+```bash
 pytest
