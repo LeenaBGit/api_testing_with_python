@@ -3,7 +3,7 @@
 - requests
 - Pytest
 
-## 🚀 Tests Covered
+## Tests Covered
 - ✅ GET user by ID
 - ✅ Handle user not found (404)
 - ✅ Email format validation
