@@ -1,10 +1,10 @@
-# 🧪 API Testing with Python & Pytest
+# API Testing with Python & Pytest
 
 This project demonstrates API testing using Python's `requests` library and the `pytest` framework. It targets a public placeholder API to validate both positive and negative scenarios.
 
 ---
 
-## ✅ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Pytest** — for test execution and structure
@@ -12,7 +12,7 @@ This project demonstrates API testing using Python's `requests` library and the 
 
 ---
 
-## 🚀 What It Tests
+## What It Tests
 
 | Test | Description |
 |------|-------------|
@@ -22,7 +22,7 @@ This project demonstrates API testing using Python's `requests` library and the 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 api_testing_with_python/
 ├── tests/
@@ -33,7 +33,7 @@ api_testing_with_python/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install dependencies:
 
